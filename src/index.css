@@ -1,0 +1,24 @@
+ @import "tailwindcss";
+ 
+body{
+  padding: 50px 100px;
+  background: linear-gradient(to left, #242b4a, #070348, #2c220c);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
